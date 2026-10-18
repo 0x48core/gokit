@@ -51,7 +51,6 @@ linters-settings:
       main:
         allow:
           - $gostd
-          - gitlab.ghn.vn
           - github.com
 
 issues:
