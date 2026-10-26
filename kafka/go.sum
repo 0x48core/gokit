@@ -1,0 +1,6 @@
+github.com/0x48core/gokit/logger v0.1.0 h1:4OYJQIya5sYl1vqsZc+j6ODE0zztyNB0kOPLhu1ubGo=
+github.com/0x48core/gokit/logger v0.1.0/go.mod h1:yBkhFP5zqOjBJ8kY3ZtF/9K5TxKSssCA472QdbPZIeI=
+github.com/confluentinc/confluent-kafka-go/v2 v2.15.0 h1:Nfz04XU4qtT4/OU3zibwJVjUYs5SG35d2SwBIQ+L2FY=
+github.com/confluentinc/confluent-kafka-go/v2 v2.15.0/go.mod h1:uvixf1aKCnE5NHlELzZpO4k6TQc1DJalz67dVGaYxIs=
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
