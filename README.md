@@ -11,6 +11,7 @@ Each package is its own Go module, so you only pull in the dependencies of the p
 | [kafka](./kafka) | Kafka producer and consumers on confluent-kafka-go, with single or batch handlers, at-least-once offset commits and trace ID headers. | `go get github.com/0x48core/gokit/kafka` |
 | [logger](./logger) | Structured JSON logging with `log/slog`, with trace IDs and key/values carried in `context.Context`. | `go get github.com/0x48core/gokit/logger` |
 | [metrics](./metrics) | Counters, gauges and histograms on top of the Prometheus Go client, created and registered on first use. | `go get github.com/0x48core/gokit/metrics` |
+| [redis](./redis) | Redis cache client and distributed lock on go-redis and redsync, with JSON values and per-caller latency metrics. | `go get github.com/0x48core/gokit/redis` |
 | [snowflake](./snowflake) | Unique, time-ordered 64-bit IDs, with node IDs leased from MySQL, PostgreSQL or MongoDB. | `go get github.com/0x48core/gokit/snowflake` |
 
 See each package's README for usage and API details.
