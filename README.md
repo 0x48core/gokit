@@ -9,6 +9,7 @@ Each package is its own Go module, so you only pull in the dependencies of the p
 | Package | Description | Install |
 | --- | --- | --- |
 | [config](./config) | Loads config into a struct from `default` tags, YAML/JSON/TOML files and environment variables, with `validate` tag checks. | `go get github.com/0x48core/gokit/config` |
+| [database](./database) | `database/sql` wrapper with pool defaults, a transaction helper, sqlc-compatible per-query latency metrics and slow query logs. | `go get github.com/0x48core/gokit/database` |
 | [health](./health) | Liveness and readiness HTTP handlers that run checks concurrently with timeouts, and drain on shutdown. | `go get github.com/0x48core/gokit/health` |
 | [httpclient](./httpclient) | `*http.Client` with safe timeouts, retries with backoff for idempotent requests, trace ID propagation and per-host latency metrics. | `go get github.com/0x48core/gokit/httpclient` |
 | [httpserver](./httpserver) | `net/http` server with graceful shutdown, and middleware for trace IDs, panic recovery, access logs and per-route latency metrics. | `go get github.com/0x48core/gokit/httpserver` |
