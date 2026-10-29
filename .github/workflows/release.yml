@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        module: [config, httpserver, kafka, logger, metrics, redis, snowflake]
+        module: [config, httpserver, kafka, logger, metrics, redis, snowflake, tracing]
     defaults:
       run:
         working-directory: ${{ matrix.module }}
