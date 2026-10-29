@@ -15,6 +15,7 @@ Each package is its own Go module, so you only pull in the dependencies of the p
 | [metrics](./metrics) | Counters, gauges and histograms on top of the Prometheus Go client, created and registered on first use. | `go get github.com/0x48core/gokit/metrics` |
 | [redis](./redis) | Redis cache client and distributed lock on go-redis and redsync, with JSON values and per-caller latency metrics. | `go get github.com/0x48core/gokit/redis` |
 | [snowflake](./snowflake) | Unique, time-ordered 64-bit IDs, with node IDs leased from MySQL, PostgreSQL or MongoDB. | `go get github.com/0x48core/gokit/snowflake` |
+| [tracing](./tracing) | OpenTelemetry setup with an OTLP/HTTP exporter, HTTP server middleware and client transport, sharing its trace ID with the logger. | `go get github.com/0x48core/gokit/tracing` |
 
 See each package's README for usage and API details.
 
