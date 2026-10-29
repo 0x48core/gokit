@@ -10,6 +10,7 @@ Each package is its own Go module, so you only pull in the dependencies of the p
 | --- | --- | --- |
 | [config](./config) | Loads config into a struct from `default` tags, YAML/JSON/TOML files and environment variables, with `validate` tag checks. | `go get github.com/0x48core/gokit/config` |
 | [health](./health) | Liveness and readiness HTTP handlers that run checks concurrently with timeouts, and drain on shutdown. | `go get github.com/0x48core/gokit/health` |
+| [httpclient](./httpclient) | `*http.Client` with safe timeouts, retries with backoff for idempotent requests, trace ID propagation and per-host latency metrics. | `go get github.com/0x48core/gokit/httpclient` |
 | [httpserver](./httpserver) | `net/http` server with graceful shutdown, and middleware for trace IDs, panic recovery, access logs and per-route latency metrics. | `go get github.com/0x48core/gokit/httpserver` |
 | [kafka](./kafka) | Kafka producer and consumers on confluent-kafka-go, with single or batch handlers, at-least-once offset commits and trace ID headers. | `go get github.com/0x48core/gokit/kafka` |
 | [logger](./logger) | Structured JSON logging with `log/slog`, with trace IDs and key/values carried in `context.Context`. | `go get github.com/0x48core/gokit/logger` |
