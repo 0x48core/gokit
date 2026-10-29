@@ -8,6 +8,7 @@ Each package is its own Go module, so you only pull in the dependencies of the p
 
 | Package | Description | Install |
 | --- | --- | --- |
+| [config](./config) | Loads config into a struct from `default` tags, YAML/JSON/TOML files and environment variables, with `validate` tag checks. | `go get github.com/0x48core/gokit/config` |
 | [kafka](./kafka) | Kafka producer and consumers on confluent-kafka-go, with single or batch handlers, at-least-once offset commits and trace ID headers. | `go get github.com/0x48core/gokit/kafka` |
 | [logger](./logger) | Structured JSON logging with `log/slog`, with trace IDs and key/values carried in `context.Context`. | `go get github.com/0x48core/gokit/logger` |
 | [metrics](./metrics) | Counters, gauges and histograms on top of the Prometheus Go client, created and registered on first use. | `go get github.com/0x48core/gokit/metrics` |
